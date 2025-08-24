@@ -1,6 +1,6 @@
-streamlit
-pymupdf
-python-docx
-pillow
-pytesseract
-llama-cpp-python
+streamlit==1.37.1
+pymupdf==1.24.9
+python-docx==1.1.2
+pillow==10.4.0
+pytesseract==0.3.13
+llama-cpp-python==0.2.90
