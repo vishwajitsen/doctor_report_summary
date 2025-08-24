@@ -1,0 +1,6 @@
+streamlit
+pymupdf
+python-docx
+pillow
+pytesseract
+llama-cpp-python

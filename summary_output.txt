@@ -1,0 +1,10 @@
+
+Doctor-style interpretation letter (plain English for the patient)
+
+Dear [Patient’s Name],
+
+Your recent medical test results have been analyzed and the findings are as follows:
+
+Normal Findings:
+
+* Your liver function tests (AST, ALT,
