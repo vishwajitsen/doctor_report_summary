@@ -12,7 +12,7 @@ doctor_report_summary.py
     5) Overall Weighted Health Score out of 100
 - If model file missing, optionally download from Hugging Face (repo + filename configurable)
 """
-import docx as Document
+
 
 import os
 import sys
