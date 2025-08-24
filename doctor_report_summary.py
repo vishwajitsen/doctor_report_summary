@@ -19,7 +19,8 @@ import streamlit as st
 from pathlib import Path
 import tempfile
 import re
-import fitz  # PyMuPDF
+import pymupdf
+ # PyMuPDF
 import docx
 from PIL import Image
 import pytesseract
@@ -53,7 +54,7 @@ except Exception as e:
 # ------------------------
 def extract_text_from_pdf(path: str) -> str:
     txt = []
-    doc = fitz.open(path)
+    doc = pymupdf.open(path)
     for page in doc:
         txt.append(page.get_text("text"))
     return "\n".join(txt)
