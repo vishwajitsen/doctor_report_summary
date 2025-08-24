@@ -5,3 +5,4 @@ pillow==10.4.0
 pytesseract==0.3.13
 llama-cpp-python==0.2.90
 huggingface-hub==0.16.4
+python-docx
